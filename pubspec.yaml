@@ -17,6 +17,7 @@ environment:
   sdk: ">=2.1.0 <3.0.0"
 
 dependencies:
+  http: 0.12.0+3
   button3d: ^0.1.0
   flutter:
     sdk: flutter
@@ -71,6 +72,9 @@ flutter:
     - family: OpenSansBold
       fonts:
         - asset: fonts/OpenSans-Bold.ttf
+    - family: CuteFont
+      fonts:
+        - asset: fonts/CuteFont-Regular.ttf
   #   - family: Trajan Pro
   #     fonts:
   #       - asset: fonts/TrajanPro.ttf
